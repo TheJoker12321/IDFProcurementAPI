@@ -20,7 +20,7 @@ export class ImagesService {
     return {
       id: itemId,
       "isValid": false,
-      "reason": err
+      "reason": err.message
 
       }
     }
